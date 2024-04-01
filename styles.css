@@ -9,7 +9,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(Images/taylor-flowe-4nKOEAQaTgA-unsplash.jpg);
+    background-image: url(Images/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -43,12 +43,12 @@ ul>li>a:hover{
 #slogan h2{
     padding-left: 1.5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blue;
+    color: white;
     margin-bottom: 1%;
 }
 #scholar h3{
     padding-left: 1.5%;
-    color:blue;
+    color:white;
 }
 #scholar img{
     width: 50%;
@@ -59,11 +59,49 @@ ul>li>a:hover{
     flex-direction: row-reverse;
     justify-content: center;
     gap: 1px;
+    padding: 2%;
 }
 .scol>p{
     text-align: justify;
     padding: 1.5%;
-    background-color: black;
-    color: white;
+    color: black;
     border-radius: 5px;
+}
+#activities{
+    padding: 2%;
+}
+#activities h3{
+    padding: 1%;
+}
+#activities p{
+    color: rgba(255, 255, 255, 0.733);
+    padding: 1%;
+}
+#classes{
+    padding: 2%;
+}
+#classes h3{
+    padding: 1%;
+}
+#classes p{
+    padding: 1%;
+}
+#contacts{
+    padding: 4%;
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+#contacts ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    padding:1%;
+}
+#contacts div{
+    width:35%;
 }
