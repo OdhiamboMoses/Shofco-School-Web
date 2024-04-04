@@ -86,6 +86,7 @@ ul>li{
 #contacts{
     padding: 4%;
     background-color: white;
+    border-radius: 5px;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
